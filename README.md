@@ -9,5 +9,20 @@ Recent work has suggested that sharp-wave ripple-like events may primarily refle
 To address this, we incorporate sensitivity analyses examining whether detection outcomes persist after controlling for aperiodic parameters and whether algorithmic detections are disproportionately driven by broadband spectral shifts. 
 
 # Data 
+Data were obtained from the SS2 subset of the Montreal Archive of Sleep Studies (MASS), consisting of whole-night polysomnography (PSG) recordings from 19 healhty adults. Expert-annotated KC and SSs are included. 
+
+# Analysis Details 
+To determine whether KC and SS detections reflect true oscillatory events or may be partially driven by broadband spectral structure, we conducted simulation-based sensitivity analyses. 
+
+Specifcally, 
+- Simulated time series were generateed containing purely aperiodic structure with no embedded oscillatory bursts.
+- Published KC and SS detection algoritms were applied to both simulated and real EEG data.
+
+These analyses allow us to test whether certain waveform detections could emerge from underlying aperiodic fluctuations alone, rather than reflecting discrete oscillatory phenomena. Additionally, we examine whether variability in detection across algroithms is associated with differences in aperiodic parameters, helping determine whether broadband dynamics systematically influence event detectoin probability. 
+
+# Repository Structure 
 
 
+
+# Overall Aim 
+The long-term goal of this project is to clarify how aperiodic neural dynamics shape sleep microarchitecture and to establish a framework linking cortical aperiodic dynamics, sleep-stage physiology, and memory-relevant electrophysiological events.
