@@ -8,19 +8,6 @@ Recent work has suggested that sharp-wave ripple-like events may primarily refle
 
 To address this, we incorporate sensitivity analyses examining whether detection outcomes persist after controlling for aperiodic parameters and whether algorithmic detections are disproportionately driven by broadband spectral shifts. 
 
-# Data 
-Data were obtained from the SS2 subset of the Montreal Archive of Sleep Studies (MASS), consisting of whole-night polysomnography (PSG) recordings from 19 healhty adults. Expert-annotated KC and SSs are included. 
-
-The MASS dataset is publicly available for research purposes and can be accessed through the official project website:
-(https://borealisdata.ca/dataverse/MASS)
-
-Researchers must request access and agree to the dataset’s terms of use prior to downloading.
-
-# Ethical Considerations 
-Although MASS is a de-identified public dataset, all analyses conducted in this project were performed under institutional research oversight. An IRB determination was obtained confirming that the use of this de-identified archival dataset qualifies as non-human subjects research. All data handling procedures comply with institutional and ethical guidelines for secondary data analysis.
-
-No personally identifiable information (PII) is included in this repository.
-
 # Analysis Details 
 To determine whether KC and SS detections reflect true oscillatory events or may be partially driven by broadband spectral structure, we conducted simulation-based sensitivity analyses. 
 
@@ -33,6 +20,18 @@ These analyses allow us to test whether certain waveform detections could emerge
 # Repository Structure 
 
 
+# Data 
+Data were obtained from the SS2 subset of the Montreal Archive of Sleep Studies (MASS), consisting of whole-night polysomnography (PSG) recordings from 19 healhty adults. Expert-annotated KC and SSs are included. 
+
+The MASS dataset is publicly available for research purposes and can be accessed through the official project website:
+(https://borealisdata.ca/dataverse/MASS)
+
+Researchers must request access and agree to the dataset’s terms of use prior to downloading.
+
+# Ethical Considerations 
+Although MASS is a de-identified public dataset, all analyses conducted in this project were performed under institutional research oversight. An IRB determination was obtained confirming that the use of this de-identified archival dataset qualifies as non-human subjects research. All data handling procedures comply with institutional and ethical guidelines for secondary data analysis.
+
+No personally identifiable information (PII) is included in this repository.
 
 # Overall Aim 
 The long-term goal of this project is to clarify how aperiodic neural dynamics shape sleep microarchitecture and to establish a framework linking cortical aperiodic dynamics, sleep-stage physiology, and memory-relevant electrophysiological events.
